@@ -21,19 +21,8 @@ private TextView textView;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         button.setTextColor(Color.BLACK);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+         String shuai="贺平外号  八维彭于晏";
 
-            }
-        });
-        button.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-
-                return true;
-            }
-        });
 
 
 
@@ -43,5 +32,7 @@ private TextView textView;
     public  void start(View view)
     {
            Log.d("TAG","你谁");
+
+
     }
 }

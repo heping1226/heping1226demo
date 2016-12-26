@@ -11,11 +11,11 @@
     tools:context="heping.bwie.com.heping20161223.MainActivity">
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="我去"
-        android:onClick="start"
-        />
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="我去"
+    android:onClick="start"
+    />
 
 
 </RelativeLayout>
